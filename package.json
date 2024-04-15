@@ -6,6 +6,12 @@
   "author": "maxisam@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@nx-dotnet/core": "^2.2.0",
+    "@nx/js": "18.2.4",
     "nx": "18.2.4"
-  }
+  },
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
+  "dependencies": {}
 }
