@@ -352,4 +352,7 @@ Build/
 DerivedDataCache/
 .vs/
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio,csharp,dotnetcore,visualstudiocode
+node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
