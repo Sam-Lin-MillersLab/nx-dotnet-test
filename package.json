@@ -6,6 +6,6 @@
   "author": "maxisam@gmail.com",
   "license": "MIT",
   "devDependencies": {
-    "nx": "^18.2.4"
+    "nx": "18.2.4"
   }
 }

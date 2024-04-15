@@ -510,7 +510,7 @@ npm-run-path@^4.0.1:
   dependencies:
     path-key "^3.0.0"
 
-nx@18.2.4, nx@^18.2.4:
+nx@18.2.4:
   version "18.2.4"
   resolved "https://registry.yarnpkg.com/nx/-/nx-18.2.4.tgz#207c5db6b00701a6202cdf7728d4a0deb458147a"
   integrity sha512-GxqJcDOhfLa9jsPmip0jG73CZKA96wCryss2DhixCiCU66I3GLYF4+585ObO8Tx7Z1GqhT92RaNGjCxjMIwaPg==
