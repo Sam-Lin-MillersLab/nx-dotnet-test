@@ -1,10 +1,13 @@
 {
-  "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "defaultBase": "main",
-  "targetDefaults": {
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "name": "webapi2",
+  "projectType": "application",
+  "targets": {
     "build": {
-      "cache": true,
-      "dependsOn": ["^build"]
+      "options": {
+        "configuration": "Release",
+        "noDependencies": false
+      }
     },
     "lint": {
       "cache": true,
@@ -17,6 +20,5 @@
         "verbosity": "diagnostic"
       }
     }
-  },
-  "plugins": ["@nx-dotnet/core"]
+  }
 }
