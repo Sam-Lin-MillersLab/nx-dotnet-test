@@ -7,6 +7,9 @@
       "dependsOn": ["^build"]
     },
     "lint": {
+      "cache": true
+    },
+    "@nx-dotnet/core:format": {
       "cache": true,
       "options": {
         "fix": true,
